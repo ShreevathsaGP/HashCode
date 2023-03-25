@@ -15,5 +15,5 @@ for m in models:
         prophets[m.split(".")[0]] = json.load(f)
 
 
-with open("prophets.json", 'w') as f:
+with open("data/prophets.json", 'w') as f:
     json.dump(prophets, f, indent = 4)
